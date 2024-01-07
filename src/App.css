@@ -15,3 +15,14 @@
 .dictionary{
   background-color: rgba(171, 186, 186, 0.564);
 }
+
+.dictionary form{
+  text-align: center;
+}
+
+.results h2{
+  color: blue;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 30px 20px;
+}
