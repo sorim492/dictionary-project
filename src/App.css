@@ -1,3 +1,11 @@
+body{
+  background-color: #f9f8fe;
+}
+
+a{
+  color: #a14aed;
+}
+
 .app-header{
   margin: 30px 0;
 }
@@ -12,17 +20,48 @@
   margin: 30px 0;
 }
 
-.dictionary{
-  background-color: rgba(171, 186, 186, 0.564);
+.dictionary section{
+  background-color: rgba(233, 242, 242, 0.948);
+  border-radius: 10px;
+  padding: 15px 0;
+  max-width: 800px;
+  margin: 10px;
 }
 
 .dictionary form{
   text-align: center;
 }
 
+.dictionary input{
+  width: 60%;
+  border-radius: 4px;
+  color: #333 ;
+}
+
+.dictionary .hint{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
 .results h2{
-  color: blue;
+  color: rgb(89, 3, 129);
   text-transform: capitalize;
   text-align: left;
   margin: 30px 20px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.results section{
+  padding: 10px 10px;
+}
+
+.phonetic{
+  padding: 5px 20px;
+}
+
+.synonyms{
+  padding: 0 10px;
 }
