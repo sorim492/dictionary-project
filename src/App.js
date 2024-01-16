@@ -13,7 +13,8 @@ function App() {
       <Dictionary/>
       </main>
       <footer className='app-footer'>
-        Coded by Kairos Quin
+        Coded by Kairos Quin, link to 
+        <a href='https://github.com/sorim492/dictionary-project.git' target='_blank' rel="noreferrer"> github</a>
       </footer>
       </div>
     </div>
