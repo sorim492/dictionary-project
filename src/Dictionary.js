@@ -25,8 +25,9 @@ export default function Dictionary(){
     return(
         <div className="dictionary">
             <section>
+                <h1>What word do you want to look up?</h1>
                 <form onSubmit={goSearch}>
-                    <input type="search" onChange={handleKeyword}/>
+                    <input type="search" onChange={handleKeyword} defaultValue={"sunset"}/>
                 </form>
                 <div className="hint">
                     Suggested words: sunset, wine, yoga, dog
